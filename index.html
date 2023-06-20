@@ -1,46 +1,81 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-        <link href="style/style.css" rel="stylesheet">
-        <link rel="stylesheet" href="./style/reset.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    </head>
-    <body>
-        <nav class="d-flex align-items-center justify-content-center nav-gap">
-            <span class="d-flex flex-column nav-fonte">CONTA</span>
-        </nav>
+<html lang="pt_BR">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@300&family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
-        <div class="div_body">
-            
-            
-            
-            
+    <script src="https://kit.fontawesome.com/06badf9a40.js" crossorigin="anonymous"></script>
 
 
-            <div class="box_left">
-                <div class="d-flex flex-column align-items-flex-start mt-2 ml-2 mb-3">
-                    <a class="bd-highlight m-2" href="">Conta</a>
-                    <a class="bd-highlight m-2" href="">Cartão de Crédito</a>
-                    <a class="bd-highlight m-2" href="">Empréstimos</a>
-                    <a class="bd-highlight m-2" href="">Investimentos</a>
-                </div>
-            </div>
-            <div class="valor">
-                <div class="push">
-                    Valor da conta
-                </div>
-                <div>
-                    R$ 10.500,00
-                </div>
-            </div>
-            
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prosperous Tech</title>
+
+    <link rel="stylesheet" href="./style/style.css">
+
+</head>
+<body>
+    
+<header>
+    <nav class="navbar">
+        <a class="navbar-brand" href="#">Prosperous Tech</a>
+    </nav>
+</header>
+
+
+<div>
+    <div class="proporção">
+        <div class="login-image">
+            <img src="./img/11229.jpg" alt="Imagem de login" class="">
+            <p>Descubra o caminho para a prosperidade financeira com o Prosperous Tech. Ajudamos você a alcançar suas metas financeiras e construir um futuro próspero.</p>
         </div>
-    </body>
+        <div>
+            <h1>Login</h1>
+                <div class="form-grup">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email" placeholder="Digite seu email">
+                </div>
+                <div class="form-group">
+                    <label for="password">Senha:</label>
+                    <input type="password" class="form-control" id="password" placeholder="Digite sua senha">
+                </div>
+                <div class="form-group">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="form-check-label">
+                            <input type="checkbox" id="rememberMe">
+                            <label class="form-check-label" for="rememberMe">Lembrar minha senha</label>
+                        </div>
+                        <a href="#" class="form-a">Esqueci minha senha</a>
+                    </div>
+                </div>
+                <div  class="form-group mt-3">
+                    <button type="submit" class="btn btn-primary custom-button">Cadastrar</button>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn btn-primary custom-button2">Acessar</button>
+                </div>
+                <div class="login-options">
+                    <div class="login-option">
+                        <button type="submit" class="btn btn-outline-primary login-button"><i class="fab fa-google"></i> Fazer login com o Google</button>
+                    </div>
+                    <div class="login-option">
+                        <button type="submit" class="btn btn-outline-primary login-button"><i class="fab fa-apple"></i> Fazer login com a Apple</button>
+                    </div>
+                    <div class="login-option">
+                        <button type="submit" class="btn btn-outline-primary login-button"><i class="fa-brands fa-facebook"></i> Fazer login com o Facebook</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="text-center">
+    <p>&copy; 2023 Prosperous Tech. Todos os direitos reservados.</p>
+</footer>
+
+</body>
 </html>

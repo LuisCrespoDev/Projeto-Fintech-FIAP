@@ -1,79 +1,141 @@
-/* Definindo as variáveis */
-
-:root {
-    --bg-color: #161616;
-    --white-color: #ffffff;
-    --gold-color: #D1BE13;
-    --cor-padrao: rgba(0, 128, 0, 0.541);
+body {
+    font-family: 'Catamaran', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    background: rgb(162,201,94);
+    background: linear-gradient(90deg, rgba(162,201,94,0.5494572829131652) 0%, rgba(49,119,179,0.5494572829131652) 100%);
 }
 
-/* Bootstrap 4.1 */
-
-.seletor-para-algum-widget {
-    box-sizing: content-box;
+.navbar {
+    background: linear-gradient(to right, #a2c95e, #3177b3);
 }
 
-
-/* Anchor style */
+.navbar-brand {
+    font-weight: 900;
+}
 
 a {
-    text-decoration: none;
-    color: var(--white-color);
+    font-size: 10px;
+    color: white;
 }
 
-/* TopBar */
-
-nav {
-    background-color: var(--gold-color);
-    height: 5vh;
+header {
+    margin-bottom: 20px;
 }
 
-.nav-gap {
-    gap: 10px;
-}
-
-.nav-fonte {
-    font-family: 'Outfit', sans-serif;
-    color: var(--bg-color);
-}
-
-/* Body Style */
-
-.div_body {
+.row {
+    margin: 100px;
+    width: 50vw;
+    height: 50vh;
     display: flex;
     flex-direction: row;
-    background-color: var(--bg-color);
-    color: var(--white-color);
-    font-family: 'Outfit', sans-serif;
-    height: 100%;
+    float: right;
 }
 
-.box_left {
-    background-color: #131313;
-    height: 100vh;
-    width: 15%;
-}
-
-.ola {
-    background-color: red;
-    padding: 0;
-    gap: 1vw;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
-
-.valor {
+.login-image {
     display: flex;
     flex-direction: column;
-    
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 20vw;
+    max-width: 100%;
+    height: 50vh;
+    margin-bottom: 20px;
+    float: left;
 }
 
-.push {
-    
+p {
+    color: rgb(49, 119, 179);
+    font-weight: 400;
+    text-align: center;
 }
 
-body {
-    background-color: red;
+.form-check-label {
+    color: white;
+    font-weight: 500;
 }
+
+.form-a {
+    font-weight: 500;
+}
+
+label {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.btn-primary {
+    width: 100%;
+}
+
+.custom-button {
+    background-color: rgb(125, 167, 73);
+    border-color: rgb(125, 167, 73);
+    color: rgb(204, 79, 36);
+    font-weight: 600;
+}
+
+.custom-button:hover {
+    background-color: rgb(125, 167, 73);
+    border-color: rgb(125, 167, 73);
+    color: rgb(204, 79, 36);
+    filter: saturate(130%);
+}
+
+.custom-button2 {
+    background-color: rgb(204, 79, 36);
+    border-color: rgb(204, 79, 36);
+    font-weight: 500;
+}
+
+.custom-button2:hover {
+    background-color: rgb(204, 79, 36);
+    border-color: rgb(204, 79, 36);
+    filter: saturate(120%)
+}
+
+.login-options {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-option {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.login-button {
+    width: 100%;
+}
+
+.estrutura {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.proporção {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 17vh;
+    gap: 100px;
+}
+
+footer {
+    
+    position: relative;
+    margin-top: 170px;
+    padding: 10px;
+}
+
+img {
+    border-radius: 400px; /* borda */
+    width: 315px; /* largura */
+    height: 400px; /* altura */
+}
+
