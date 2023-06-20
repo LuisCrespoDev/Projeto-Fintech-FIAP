@@ -1,13 +1,40 @@
-# Sobre meu Projeto da Fintech da FIAP
+# Sobre meu Projeto da Fintech da FIAP e Trabalhos em Grupo
 <br>
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/LuisCrespoDev/Projeto-Fintech-FIAP)
 
-Esse é meu projeto mais atualizado, e minuciosamente desenvolvido, para apresentar os meus projetos, meus cursos e interesses, de forma clara e precisa.
+Neste repositório, você encontrará uma variedade de projetos que incluem tanto trabalhos em grupo quanto a fintech que estou desenvolvendo individualmente.
 
-###### Nesse site constam as informações sobre minha área de conhecimento técnico, meus cursos completos, todos os meus projetos web disponíveis (com link para o repositório), minha galeria, e mais informações relevantes sobre minha atuação nas redes sociais.
+## Trabalhos em grupo
+
+- ChallengeBrq_Easycarros.docx.pdf
+- globalSolution_final.pptx
+
+## Fintech da FIAP
+
+Estou empolgado em compartilhar o progresso da minha fintech, um projeto em que venho trabalhando intensamente. Aqui estão algumas informações sobre o projeto:
+
+### Principais recursos/funcionalidades:
+
+- Cadastro de usuários e gerenciamento de contas pessoais
+- Registro de recebimentos, gastos e investimentos na plataforma
+- Análise e monitoramento financeiro para auxiliar nas tomadas de decisões
+- Opções de investimento com baixo risco e alta rentabilidade
+- Interface de compra de investimentos de forma simples e segura
+
+### Tecnologias/Ferramentas utilizadas até o momento:
+
+- Notion
+- Figma
+- VS Code
+- Oracle SQL Developer Data Modeler
+- HTML
+- CSS
+- Bootstrap
+
+###### Fique à vontade para explorar os projetos em grupo e acompanhar o desenvolvimento da minha fintech. Sinta-se livre para deixar comentários e sugestões para me apoiar!
 
 # Mais informações
-Você pode ver mais dos meus projeto clicando [Nesse Link](https://github.com/LuisCrespoDev) e me apoiar deixando um comentário.
+Você pode ver mais dos meus projeto clicando [Nesse Link](https://github.com/LuisCrespoDev).
 
-###### Visite também meu Linkedin clicando [Nesse Link](https://www.linkedin.com/in/luiscrespodev/) e conhecendo um pouco mais sobre minha vida e meu trabalho.
+###### Visite meu Linkedin clicando [Nesse Link](https://www.linkedin.com/in/luiscrespodev/), visite também meu Instagram clicando [Nesse Link](https://www.instagram.com/luishtcrespo/) e conheça um pouco mais sobre minha vida e meu trabalho.
