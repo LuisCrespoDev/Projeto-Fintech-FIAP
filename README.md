@@ -26,8 +26,8 @@ Estou empolgado em compartilhar o progresso da minha fintech, um projeto em que 
 
 - Notion
 - Figma
-- VS Code
 - Oracle SQL Developer Data Modeler
+- VS Code
 - HTML
 - CSS
 - Bootstrap
