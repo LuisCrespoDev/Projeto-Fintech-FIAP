@@ -7,8 +7,8 @@ Neste repositório, você encontrará uma variedade de projetos que incluem tant
 
 ## Trabalhos em grupo
 
-- ChallengeBrq_Easycarros.docx.pdf
-- globalSolution_final.pptx
+- ChallengeBrq_Easycarros.docx.pdf [Abrir projeto](https://github.com/LuisCrespoDev/Projeto-Fintech-FIAP/blob/main/docs/ChallengeBrq_Easycarros.docx.pdf)
+- GlobalSolution_final.pdf [Abrir projeto](https://github.com/LuisCrespoDev/Projeto-Fintech-FIAP/blob/main/docs/GlobalSolution_final.pdf)
 
 ## Fintech da FIAP
 
